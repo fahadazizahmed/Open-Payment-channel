@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  {{!-- <head>
+
+  <meta name="viewport" content="width=device-width",initial-scale=1.0">
+  <meta http-equip="X-UA-Compatible" content="ie-edge">
+
+
+  <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+
+    <title>Story Books</title>
+    <link rel="stylesheet" href="/css/main.css">
+  </head> --}}
+  <body>
+
+{{!-- {{> _header}} --}}
+    {{!-- <main> --}}
+ {{> msg}}
+{{{body}}}
+
+
+
+{{!-- </main>
+{{#if user}}
+{{> btn-float}}
+  {{/if}}
+  {{> _footer}}
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.10.1/standard/ckeditor.js"></script>
+<script>
+    $(document).ready(() => {
+     $('.sidenav').sidenav();
+
+      $('select').formSelect();
+   });
+   CKEDITOR.replace('body',{
+     plugins: 'wysiwygarea,toolbar,basicstyles,link'
+   });
+ </script> --}}
+  </body>
+</html>
