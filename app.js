@@ -57,7 +57,7 @@ checkAddr.post('/',async function(req,res,next){
   const {interface,bytecode}  = require ('./compile');
   //const bytecode = a.contracts[':Inbox'].bytecode;
   
-  var provider = new HDWalletProvider(mnemonic, "https://rinkeby.infura.io/v3/4e962d53cc894df2a63436f519d1e9d0");
+  var provider = new Web3.providers.HttpProvider(mnemonic, "https://rinkeby.infura.io/v3/4e962d53cc894df2a63436f519d1e9d0");
   
   const web3 = new Web3(provider);
 
