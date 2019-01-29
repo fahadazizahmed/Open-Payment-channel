@@ -14,7 +14,7 @@ const exphbs = require('express-handlebars')
 
 var path = require('path')
 var bodyParser = require('body-parser')
-const flash = require('connect-flash');
+
 
 app.engine('handlebars', exphbs({
 
@@ -154,8 +154,8 @@ function signPayment(contractAddress, amount, callback) {
           port: 2525,
           secure: false, // true for 465, false for other ports
           auth: {
-            user: 'e36b59e6f3ba11', // generated ethereal user
-            pass: '3cea2e1bda5682'  // generated ethereal password
+            user: 'ce75c88586356d', // generated ethereal user
+            pass: 'e4a41914a5b804'  // generated ethereal password
           },
           tls:{
           rejectUnauthorized:false
